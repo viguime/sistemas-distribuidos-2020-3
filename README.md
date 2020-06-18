@@ -1,21 +1,38 @@
-# sistemas-distribuidos-2020-3
+# Síntese dos conceitos e caracterização de sistemas distribuídos
 
-## Repositório com projetos e atividades da disciplina de Sistemas Distribuídos
+## O que é um sistema distribuído?
 
-### Atividade S01E01 - Síntese dos conceitos e caracterização de sistemas distribuídos
+É o contrário do mais tradicional sistema centralizado, possui natureza modular.
+Várias máquinas com responsabilidades diferentes no mesmo sistema.
 
-Essa atividade visa ajudar os alunos a sintetizar os conceitos e as características dos sistemas distribuídos.
+Características:
 
-Você deverá escrever um arquivo sintetizando os seus aprendizados a respeito da unidade S01E01 (*Caracterização de Sistemas Distribuídos*)
+- Mais robusto (pode tolerar falhas)
+- Mais escalável (aumento da base de usuários)
+- Mais complexo
+- Mais confiável (isolamento de falhas)
 
-- Como realizar a atividade?
-  1. Você deverá criar uma conta no GitHub, caso não tenha, a página do [GitHub](https://github.com/).
-  2. Depois disso, você deverá criar um repositório com o nome `sistemas-distribuidos-2020-3`.
-  3. Nesse repositório você deverá criar um diretório `atv-s01e01` e dentro dele um arquivo `README.md`.
-  4. Para saber como formatar esse arquivo, utilize o seguinte link: [guia de formatação do GitHub](https://help.github.com/pt/github/writing-on-github/basic-writing-and-formatting-syntax).
-  5. **Usem e abusem dos tópicos para sintetizar (lembre-se, NÃO É UM RESUMO! Quero ver tópicos e informações a respeito dos conceitos e coisas que vocês achem interessantes! Vale buscar mais informações na web!)**
-  6. Não sabe como manipular arquivos em repositórios Git? Pode usar esse hack aqui (em inglês): [git - the simple guide](https://rogerdudler.github.io/git-guide/)
-  7. Publicou a síntese no seu Git? Manda uma mensagem no no canal do Discord `#atv-s01e01` com as seguintes informações:
-    - Nome completo
-    - Link para o arquivo da síntese
-  Vou publicar no meu git os links de todas as sínteses. Portanto, caprichem! 😉
+## Metas de Sistemas Distribuídos
+
+- Compartilhamento de recursos
+- Transparência
+    *Esconde do usuário características e funcionamento dos dados/sistema, como localização geográfica, concorrência, migração, falhas, persistência, latência etc.
+- Abertura
+    *Padronização de sintax e semântica dos serviços, o que pode permitr que o sistema seja expandido utilizando essa padronização como fundação
+- Iteroperabilidade
+    *Comunicação entre implementações distintas, por conta da abertura
+- Portabilidade
+    *Compatibilidade de aplicações entre sistemas distribuídos
+- Extensibilidade
+    *Capacidade expandir o sistema com a adição de novos componentes sem afetar os antigos
+- Escalabilidade
+    *Aumento da capacidade de atendimento, por tamanho e geograficamente (replicação de servidores em países diferentes).
+
+## Exemplos de Sistemas Distribuídos:
+
+* Domain Name Systems (DNS)
+* Servidores de Email (SMTP)
+* Redes telefônicas
+* Microsserviços
+* Armazenamento remoto (GDrive, OneDrive)
+
