@@ -2,7 +2,7 @@
 
 ## O que é um sistema distribuído?
 
-É o contrário do mais tradicional sistema centralizado, possui natureza modular.
+Ao contrário do mais tradicional sistema centralizado, possui natureza modular.
 Várias máquinas com responsabilidades diferentes no mesmo sistema.
 
 Características:
